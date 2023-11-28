@@ -7,8 +7,8 @@ public:
 
 public:
     // Setter
-    void setPanjang(double p) { panjang = p; }
-    void setLebar(double l) { lebar = l; }
+    void setPanjang(double p = 0.0 ) { panjang = p; }
+    void setLebar(double l = 0.0 ) { lebar = l; }
 
     // Getter
     double getPanjang() const { return panjang; }
