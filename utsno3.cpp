@@ -38,7 +38,7 @@ public:
 
 int main() {
     // Membuat objek RekeningBank
-    RekeningBank rekening("Vilanda Harsono", "1234567890", 1000.0);
+    RekeningBank rekening("Vilanda Harsono", "1234567890", 70000.0);
 
     // Menampilkan informasi awal rekening
     std::cout << "Informasi Awal Rekening:" << std::endl;
